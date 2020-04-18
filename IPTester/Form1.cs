@@ -425,6 +425,20 @@ namespace IPTester
             tt5 = tt5.Replace("a", t5.IPaddr);
             tt5 = tt5.Replace("b", Convert.ToString(t5.Kv));
             label46.Text = tt5;
+
+            string tt6 = "IP-мережа розбивається на не менше ніж a підмереж, кожна з яких містить b вузлів. Розрахувати клас сумарної (агрегованої) \nIP - адреси класової мережі та її префікс.";
+            Task06 t6 = new Task06();
+            t6.Randoms();
+            tt6 = tt6.Replace("a", Convert.ToString(t6.Kp));
+            tt6 = tt6.Replace("b", Convert.ToString(t6.Kv));
+            label49.Text = tt6;
+
+            string tt7 = "IP-мережа розбивається на не менше ніж a підмереж, кожна з яких містить b вузлів. Розрахувати клас сумарної (агрегованої) \nIP - адреси класової мережі та її префікс.";
+            Task07 t7 = new Task07();
+            t7.Randoms();
+            tt7 = tt7.Replace("a", Convert.ToString(t7.Kp));
+            tt7 = tt7.Replace("b", Convert.ToString(t7.Kv));
+            label49.Text = tt7;
         }
     }
 }
